@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 13</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="main">
+	<form class=form1 action="" method="post">
+		<h2>Register</h2>
+		<h3>Insert your account information:</h3>
+		<div >
+			<span class=user-img></span>
+			<input type="text" name="username" id="username" placeholder="Username" required="">
+		</div>
+		<div >
+			<span class=email-img></span>
+			<input type="email" name="email" id="email" placeholder="Email" required="">
+		</div>
+		<div >
+			<span class=password-img></span>
+			<input type="password" name="password1" id="password1" placeholder="Password" required="">
+		</div>
+		<div >
+			<span class=password-img></span>
+			<input type="password" name="password2" id="password2" placeholder="Repeat password" required="">
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="register-keep" id="register-keep">
+			<label for="register-keep">
+				I agree the <a href="#">Therms of Use</a>
+			</label>
+			<button class=button1 type=submit name="reg_button" id="reg_button">Register
+			</button>
+		</div>
+		</form>		
+	<form class=form2 action="" method="post">
+		<h2>Login</h2>
+		<h3>Login using social network:</h3>
+		<button class=button2 id="log_fb">
+			Sign in with Facebook
+		</button>
+
+		
+		<button class=button3 id="log_t">
+			Sign in with Twitter
+		</button>
+	</form>
+	<form class=form3 action="" method="post">
+		<h3>Or insert your account information:</h3>
+		<div >
+			<span class=user-img></span>
+			<input type="text" name="username-login" id="username-login" placeholder="Username" required="">
+		</div>
+		<div>
+			<span class=password-img></span>
+			<input type="password" name="password-login" id="password2-login" placeholder="Password" required="">
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="login-keep" id="login-keep">
+			<label for="login-keep">
+				Keep me logged in
+			</label>
+			<button class=button1 type=submit name="log_button" id="log_button">Login</button>
+		</div>
+		<br>
+		Don`t have an account? <a href="">Register</a>. 
+		<br>
+		Forgot your <a href="">password</a> or <a href="">Username</a>?
+	</form>
+</div>		
+</body>
+</html>
